@@ -2,7 +2,7 @@ macro_macro_army: macro_macro_army{
 compatible = "zmk,behavior-macro";
 label = "macro_macro_army";
 #binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp LSHFT>, <&kp C>;
+bindings = <&kp LCTRL(LSHIFT(C))>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
