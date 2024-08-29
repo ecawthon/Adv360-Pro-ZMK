@@ -9,6 +9,7 @@ ctrl_esc: behavior_ctrl_esc {
 compatible = "zmk,behavior-hold-tap";
 label="Control-Escape";
 #binding-cells = <2>;
+bindings = <&kp LCTRL>, <&kp ESC>;
 };
 };
 macro_quotes: macro_quotes{
